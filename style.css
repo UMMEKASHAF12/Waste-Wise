@@ -75,7 +75,7 @@ nav.navbar {
 /* CSS */
 .button-18 {
     align-items: center;
-    background-color: #c2320a;
+    background-color: #063a09;
     border: 0;
     border-radius: 100px;
     box-sizing: border-box;
@@ -105,7 +105,7 @@ nav.navbar {
   
   .button-18:hover,
   .button-18:focus { 
-    background-color: #c2320a;
+    background-color: #69B31D;
     color: #ffffff;
   }
   
@@ -119,3 +119,49 @@ nav.navbar {
     background: rgba(0, 0, 0, .08);
     color: rgba(0, 0, 0, .3);
   }
+  .right{
+    margin-left: 10px;
+   
+  }
+  /*scroll line*/
+
+/* Animation ka code */
+.marquee-box {
+  width: 100%;
+  overflow: hidden;
+  background: #69B31D;
+  padding: 12px 0;
+}
+
+.marquee-track {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll 25s linear infinite;
+}
+
+/* Animation keyframes */
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.marquee-item {
+  display: inline-block;
+  margin: 0 60px;
+  font-size: 18px;
+  color: #ffffff;
+  position: relative;
+}
+
+/* Separator ke liye */
+.marquee-item::after {
+  content: "➤";
+  color: #ffffff;
+  position: absolute;
+  right: -50px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/*hero-cards*/
+
