@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: #fff;
+  }
+
+  .logo{
+    width: 128px ;
+    height: 23px;
+  }
+
+nav.navbar {
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+
+.navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navbar-collapse {
+    display: flex !important;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.navbar-nav .nav-item {
+    margin: 7 -26px;
+}
+
+
+.dropdown-menu {
+    background-color: white;
+}
+
+
+.dropdown-menu .dropdown-item {
+    color: black;
+}
+
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #f0f0f0;
+    color: black;
+}
+.navbar-nav .nav-link {
+    color: white !important;
+    font-size: 13px; 
+    margin-left: 17px;
+    
+}
+/*buuton*/
+/* CSS */
+.button-18 {
+    align-items: center;
+    background-color: #c2320a;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    margin-left: 100px;
+  }
+  
+  .button-18:hover,
+  .button-18:focus { 
+    background-color: #c2320a;
+    color: #ffffff;
+  }
+  
+  .button-18:active {
+    background: #09223b;
+    color: rgb(255, 255, 255, .7);
+  }
+  
+  .button-18:disabled { 
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+  }
